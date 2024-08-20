@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">مرحبا بك في تطبيقي!</string>
+    <string name="app_name">signup_n</string>
+    <string name="signup_n">انشئ حساب</string>
+    <string name="email">ايميل</string>
+    <string name="Password">الرقم السري</string>
+    <string name="confirmPass">تأكيد الرقم السري</string>
+    <string name="logDirect">لديك حساب بالفعل؟تسجيل الدخول</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="signDirect">لم تنشئ حساب بعد؟انشئ حساب</string>
+    <string name="wlhome">مرحبا!  </string>
+    <string name="Contacts">اتصل بنا</string>
+    <string name="Feel">لا تتردد في الاتصال بنا في اي وقت </string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="services">الخدمات</string>
+    <string name="photo_gallery">معرض الصور</string>
+    <string name="about_us">معلومات عنا</string>
+    <string name="contact_us">تواصل معنا</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="setting">الاعدادات</string>
+    <string name="share">مشاركة</string>
+</resources>

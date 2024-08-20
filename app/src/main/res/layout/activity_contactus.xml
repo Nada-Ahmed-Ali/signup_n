@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contactus"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+
+            android:src="@drawable/backforsignappcon" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Contacts"
+        android:textColor="@color/lavender"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Feel"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+
+        />
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="30dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/border_lavender"
+        android:padding="20dp"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:src="@drawable/phone"
+            android:gravity="center"
+            android:layout_marginStart="50dp"
+         />
+        <TextView
+            android:id="@+id/mycon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+201095423573"
+            android:gravity="center"
+            android:textColor="@color/lavender"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:onClick="myContact"
+
+            />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

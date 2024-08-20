@@ -1,0 +1,26 @@
+<resources>
+    <string name="welcome">Welcome To My App!</string>
+    <string name="app_name">My App</string>
+    <string name="signup_n">Sign up</string>
+    <string name="email">Email</string>
+    <string name="Password">Password</string>
+    <string name="confirmPass">Confirm password</string>
+    <string name="logDirect">Already an user? Login</string>
+    <string name="username">User name</string>
+    <string name="login">Log in</string>
+    <string name="signDirect">Not yet registered? Sign Up</string>
+    <string name="wlhome">Welcome </string>
+    <string name="open" translatable="false">open </string>
+    <string name="close" translatable="false">close </string>
+    <string name="Contacts">Contact Us</string>
+    <string name="Feel">Feel free to contact us any time </string>
+    <string name="phonee" translatable="false">+201095423573 </string>
+    <string name="home">Home</string>
+    <string name="services">Services</string>
+    <string name="photo_gallery">Photo Gallery</string>
+    <string name="about_us">About us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="logout">Logout</string>
+    <string name="setting">Setting</string>
+    <string name="share">Share</string>
+</resources>

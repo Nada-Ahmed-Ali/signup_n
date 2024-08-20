@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include layout="@layout/activity_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/draw_back"
+        android:clickable="true"
+
+        android:fitsSystemWindows="false"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="230dp"
+                android:src="@drawable/bacck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/HomeLay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:paddingStart="15dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/baseline_home_24"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"
+                android:textColor="@color/lavender"
+                android:textStyle="bold"
+                android:text="@string/home"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/seting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:paddingStart="15dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/settings"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"
+                android:textColor="@color/lavender"
+                android:textStyle="bold"
+                android:text="@string/setting"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:paddingStart="15dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/share"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"
+                android:textColor="@color/lavender"
+                android:textStyle="bold"
+                android:text="@string/share"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/abo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:paddingStart="15dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/info"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"
+                android:textColor="@color/lavender"
+                android:textStyle="bold"
+                android:text="@string/about_us"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="?android:attr/listDivider"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/logoutt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:paddingStart="15dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/logout"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginStart="35dp"
+                android:textColor="@color/lavender"
+                android:textStyle="bold"
+                android:text="@string/logout"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
